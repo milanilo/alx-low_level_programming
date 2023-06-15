@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main(void)
-/*this is the first programe for hello world*/
+/*
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
