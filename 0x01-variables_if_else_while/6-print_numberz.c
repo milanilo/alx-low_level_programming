@@ -7,10 +7,11 @@
 int main(void)
 {
 	int nb = 0;
+
 	while (nb < 10)
 	{
-		putchar(nb+'0');
-		nb++
+		putchar(nb + '0');
+		nb++;
 	}
 	putchar('\n');
 	return (0);
