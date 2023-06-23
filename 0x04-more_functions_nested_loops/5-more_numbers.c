@@ -17,12 +17,12 @@ void more_numbers(void)
 			if (c >= 10)
 			{
 				_putchar('1');
-				_putchar(c % 10 + '0');
 			}
-			c++;
+		 _putchar(c % 10 + '0');
+		 c++;
 		}
-		i++;
 		_putchar('\n');
+		i++;
 	}
 	_putchar('\n');
 }
