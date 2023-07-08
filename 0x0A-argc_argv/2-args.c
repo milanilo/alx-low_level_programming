@@ -3,7 +3,7 @@
  * main - Entry point
  * @argc: number of inputs
  * @argv: inputs
- * Ruturn: Always 0 Success
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
