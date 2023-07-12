@@ -23,15 +23,12 @@ char *str_concat(char *s1, char *s2)
 		s1[i] = s2[j];
 		j++;
 	}
-
-	int size = i + j + 1;
-
-	ptr = (char *)malloc(size * sizeof(char));
-	if (ptr == NULL || size < 0)
+	ptr = (char *)malloc((i + j + 1) * sizeof(char));
+	if (ptr == NULL || (i + j + 1) < 0)
 	{
 		return (NULL);
 	}
-	while (r < size)
+	while (r < (i + j + 1))
 	{
 		ptr[r] = s1[r];
 		r++;
