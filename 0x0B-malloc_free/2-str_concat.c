@@ -9,10 +9,10 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int i = 0;
-	unsigned int j = 0;
+	int i = 0;
+	int j = 0;
 	char *ptr;
-	unsigned int r = 0;
+	int r = 0;
 
 	while (s1[i] != '\0')
 	{
@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 
-	unsigned int size = i + j + 1;
+	int size = i + j + 1;
 
 	ptr = (char *)malloc(size * sizeof(char));
 	if (ptr == NULL || size < 0)
