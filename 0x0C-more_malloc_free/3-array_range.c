@@ -16,7 +16,7 @@ int *array_range(int min, int max)
 	}
 	else
 	{
-		p = (int *)malloc((max - min) * sizeof(int));
+		p = (int *)malloc((max - min + 1) * sizeof(int));
 	}
 	if (p == NULL)
 	{
