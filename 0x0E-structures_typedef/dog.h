@@ -14,4 +14,10 @@ typedef struct dog
 	float age;
 } st_dog;
 
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+st_dog *new_dog(char *name, float age, char *owner);
+void free_dog(st_dog *d);
+
 #endif
+
