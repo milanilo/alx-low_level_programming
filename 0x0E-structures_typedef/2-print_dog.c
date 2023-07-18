@@ -20,6 +20,6 @@ void  print_dog(struct dog *d)
 	{
 		printf("Owner : (nil)");
 	}
-	init_dog(d, d->name, d->age, d->owner);
+	printf("Name : %s\nAge : %1.f\nOwner : %s",d->name,d->age,d->owner);
 }
 
