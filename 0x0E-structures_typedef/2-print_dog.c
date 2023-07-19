@@ -10,15 +10,15 @@ void  print_dog(struct dog *d)
 	d = malloc(sizeof(struct dog));
 	if (d == NULL)
 	{
-		printf(" ");
+		return;
 	}
 	if (d->name == NULL)
 	{
-		printf("Name : (nil)");
+		d->name = "nil";
 	}
 	if (d->owner == NULL)
 	{
-		printf("Owner : (nil)");
+		d->owner = "nil";
 	}
 	printf("Name : %s\nAge : %1.f\nOwner : %s",d->name,d->age,d->owner);
 }
